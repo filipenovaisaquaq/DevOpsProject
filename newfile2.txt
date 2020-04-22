@@ -1,3 +1,4 @@
 this is a new file
 
-Niall has changed this :)
+Niall has changed this! :)
+blah blah
