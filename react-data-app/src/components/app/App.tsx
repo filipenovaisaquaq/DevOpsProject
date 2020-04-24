@@ -1,12 +1,14 @@
 import React from 'react';
-import logo from '../../logo.svg';
+
 import './App.css';
-import Header from '../page-header/header';
+import Query from './query';
 
 function App() {
   return (
-    <div> <Header /> </div>
+    <div> <Query/> </div>
   );
+
+  
 }
 
 export default App;
