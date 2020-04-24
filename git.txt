@@ -1,0 +1,45 @@
+#get most recent version of master
+git pull origin master
+
+#get other branch
+git pull origin other-branch
+
+#reset branch from latest master commit
+git reset --hard
+
+# check branches
+git branch
+
+#create new branch
+git checkout -b newbranchname
+
+#switch branches
+git checkout master
+
+#Delete File
+git -rm <filename.txt>
+git status
+git commit -m "delete file"
+git push origin master
+
+#set authentication
+git config --global user.email "filipe.novais@aquaq.co.uk"
+
+#Push to branch
+git status / git status -v -v
+git add -A
+git commit -m "comments and compliments"
+git push origin newbranchname
+
+#delete branch locally
+git branch -d localBranchName
+
+#delete branch remotely
+git push origin --delete remoteBranchName
+
+#Merge and Push changes to master
+git status / git status -v -v
+git add -A
+git commit -m "comments and compliments"
+git push origin branchname
+->go to github and do a pull request for your branch
