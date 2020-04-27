@@ -5,7 +5,7 @@ import Query from './query';
 
 function App() {
   return (
-    <div> <Query/> </div>
+    <div> <Query /> </div>
   );
 
   
